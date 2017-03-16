@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 /**
  * Created by kahyalar on 16/03/2017.
  */
-public class KahiumWeb extends Kahium {
+public class KahiumBrowserManager extends Kahium {
     public static void maximizeBrowserForMBP13(WebDriver driver){
         driver.manage().window().setPosition(new Point(0, 0));
         driver.manage().window().setSize(new Dimension(1280, 800));

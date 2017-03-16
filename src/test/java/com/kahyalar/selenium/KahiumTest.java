@@ -24,7 +24,7 @@ public class KahiumTest {
 
     @Test
     public void browserCheck(){
-        KahiumWeb.maximizeBrowserForMBP15(driver);
+        KahiumBrowserManager.maximizeBrowserForMBP15(driver);
     }
 
     @Test

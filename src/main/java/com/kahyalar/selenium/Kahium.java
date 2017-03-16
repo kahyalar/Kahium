@@ -17,7 +17,9 @@ public class Kahium {
     public Kahium(){
 
     }
-
+    public static KahiumWebManager createWebManager(WebDriver driver){
+        return new KahiumWebManager(driver);
+    }
     public static KahiumScreenshotManager createScreenshotManager(WebDriver driver){
         return new KahiumScreenshotManager(driver);
     }
