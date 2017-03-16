@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <name>Kahium</name>
-    <description>Useful commands for Selenium WebDriver</description>
+    <description>Useful commands for Selenium</description>
     <url>https://www.github.com/kahyalar/Kahium/</url>
     <licenses>
         <license>
@@ -19,6 +19,7 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+
     <build>
         <pluginManagement>
             <plugins>
@@ -43,6 +44,4 @@
             <version>RELEASE</version>
         </dependency>
     </dependencies>
-
-
 </project>
