@@ -29,7 +29,6 @@ public class KahiumTest {
 
     @Test
     public void screenshotTest() throws IOException {
-        driver.get("http://google.com");
         WebElement element = driver.findElement(By.id("hplogo"));
         Kahium.createScreenshotManager(driver).getScreenshot(null, null);
         Kahium.createScreenshotManager(driver).getScreenshotOfElement("elementSS", null, element, true);
